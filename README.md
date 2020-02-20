@@ -2,8 +2,8 @@ This is a simple distributed JMS poject using the message broker ActiveMQ.
 
 The project is composed of 3 parts:
 
-1. the producer
-2. the consumer
+1. [producer](https://github.com/achrafsmlali/simple_jms_activeMQ_exemple_spring_boot/tree/master/producer)
+2. [consumer](https://github.com/achrafsmlali/simple_jms_activeMQ_exemple_spring_boot/tree/master/consumer)
 3. the message broker
 
 For the message broker to be simple I lanched activemq docker image by running the following command. 
