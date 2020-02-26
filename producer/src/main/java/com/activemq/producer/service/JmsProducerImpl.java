@@ -24,6 +24,9 @@ public class JmsProducerImpl implements JmsProducer {
     public void sendMessage(String message) {
         log.info("Sending << " + message + ">> to the queue");
 
+        //to deal with topics
+        jmsTemplate.setPubSubDomain(true);
+
         jmsTemplate.send(JmsConfig.queueName, new MessageCreator() {
             @Override
             public Message createMessage(Session session) throws JMSException {

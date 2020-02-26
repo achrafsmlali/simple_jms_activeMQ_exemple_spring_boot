@@ -24,6 +24,7 @@ public class JmsConfig {
 
         ConnectionFactory connectionFactory =
                 new ActiveMQConnectionFactory(url);
+
         return connectionFactory;
     }
 
