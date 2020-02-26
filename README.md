@@ -18,3 +18,5 @@ If you do not want to run in it using docker check this [link](https://activemq.
 After running the 3 parts you can now send a simple message to the queue by executing a Get request on localhost:8080/messageTosendHere. you will see in the producer logs a log info indicating that the message was sent by the producer to the queue and a secand one in the consumer log indicating that the message was consumed. You can also check the AciveMQ Web console to see the number of pending messages, the number of consumers, messages enqueued and messages Dequeued.  
 
 If you are asked for a username and password while accessing the ActiveMQ Web Console then it's 'admin' for both.
+
+Feel free to suggest edits using Pull Requests.
