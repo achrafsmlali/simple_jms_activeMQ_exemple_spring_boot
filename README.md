@@ -12,7 +12,7 @@ For the message broker to be simple I lanched activemq docker image by running t
 
 This commande will expose the broker in the port 61616 and the Web Console in the port 8161.
 
-If you do not want to run in it using docker check this [link](https://activemq.apache.org/version-5-getting-started.html) .
+If you do not want to run it using docker check this [link](https://activemq.apache.org/version-5-getting-started.html) .
 
 
 After running the 3 parts you can now send a simple message to the queue by executing a Get request on localhost:8080/messageTosendHere. you will see in the producer logs a log info indicating that the message was sent by the producer to the queue and a secand one in the consumer log indicating that the message was consumed. You can also check the AciveMQ Web console to see the number of pending messages, the number of consumers, messages enqueued and messages Dequeued.  
