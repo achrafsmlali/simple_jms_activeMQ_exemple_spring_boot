@@ -1,4 +1,4 @@
-This is a simple distributed JMS poject using the message broker ActiveMQ.
+This is a simple distributed JMS poject using the message broker ActiveMQ. 
 
 The project is composed of 3 parts:
 
